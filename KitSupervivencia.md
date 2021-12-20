@@ -139,4 +139,22 @@ vim ~/vimhelp.txt
  
 ## Insertar,copiar y borrar texto
 
+1. Volvemos a editar el fichero **vimhelp.txt**
 
+```bash
+vim ~/vimhelp.txt
+```
+2. Navegamos al principio del fichero ```gg``` hasta la frase ```Get out of Vim```
+3. Si queremos **añadir una nueva linea debajo de la linea** en la que estamos pulsamos ```o``` yo relacciono la ```o``` con 'open new line' si queremos escribir arriba de la linea que estamos pulsaremos ```O```
+4. Y por ejemplo escribimos la siguiente frase ```NOTA:  Estamos aprendiendo a escribir con Vim!``` y pulsa ```ESC```
+5. Para **eliminar un linea** completa pulsaremos en modo comando ```dd```
+6. Ahora vamos a **copiar la linea completa** que hemos escrito para ell nos movemos hasta nuestra frase y pulsamos ```yy``` la y y viene de **yank** en ingles y ya tenemos copiada la linea
+7. Ahora vamos a **pegar esa linea que hemos copiado justo debajo** pulsando la tecla ```p``` que nos la pega justo debajo de donde estabamos ubicados, si queremos **pegar la linea justo arriba** pulsaremos la tecla ```P```
+8. Un truco para dejar hueco en el documento es copiar una linea en blanco, para ello vamos una linea en blanco y la copiamos ```yy``` despues vamos donde queremos dejar el hueco por ejemplo 4 lineas en blanco y pulsamos ```4p``` esto nos pega 4lineas iguales a la que habiamos copiado, como era una linea en blanco pegamos 4 lineas en blanco.
+9. Si queremos eliminar una letra nos podemos mover a la letra que queremos eliminar y pulsar la tecla ```x```
+
+**HACER CAMBIOS EN MODO VISUAL**
+Podemos seleccionar texto de manera visual para ello haremos lo siguiente:
+
+1. Pulsamos la tecla ```v```
+2. Nos movemos para seleccionar las 4 lineas en blanco que acabamos de pegar y pulsamos ```d``` para eliminar esas lineas 
