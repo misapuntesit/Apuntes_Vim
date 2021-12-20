@@ -125,7 +125,9 @@ vim ~/vimhelp.txt
 5. Si queremos ir a la mitad del documento teclearemos ```50%```
 6. Si pulsamos 5 veces la tecla ```w``` nos moveremos 5 palabras hacia delante
 7. Si pulsamos ahora 5 veces la tecla ```b``` nos moveremos 5 palapras hacia atrás
+
 **NOTA:** Cuando ponemos un número delante de un comando ese comando se repetira el número de veces que hallamos escrito. 
+
 8. Si queremos ir 25 palabras hacia adelante pulsaremos ```25w```
 9. Para movernos por el documento podemos usar la teclas ```h``` ```j``` ```k``` ```l``` o puedes usar los cursores.
 10. Si queremos buscar una palabra pondremos ```\PALABRA_QUE_BUSCAMOS``` por ejemplo prueba a poner ```\Vim``` y después ```enter```, veras como te muetra la primera palabra 'Vim' que aparezca en el documento.
