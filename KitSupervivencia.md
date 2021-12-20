@@ -122,4 +122,19 @@ vim ~/vimhelp.txt
 2. Para ir al final del fichero pulsamos ```G```
 3. Subir al principio del fichero pulsamos ```gg```
 4. Para movernos a la linea 15 podemos hacerlo pulsando  ```15G``` o ```:15```
+5. Si queremos ir a la mitad del documento teclearemos ```50%```
+6. Si pulsamos 5 veces la tecla ```w``` nos moveremos 5 palabras hacia delante
+7. Si pulsamos ahora 5 veces la tecla ```b``` nos moveremos 5 palapras hacia atrás
+**NOTA:** Cuando ponemos un número delante de un comando ese comando se repetira el número de veces que hallamos escrito. 
+8. Si queremos ir 25 palabras hacia adelante pulsaremos ```25w```
+9. Para movernos por el documento podemos usar la teclas ```h``` ```j``` ```k``` ```l``` o puedes usar los cursores.
+10. Si queremos buscar una palabra pondremos ```\PALABRA_QUE_BUSCAMOS``` por ejemplo prueba a poner ```\Vim``` y después ```enter```, veras como te muetra la primera palabra 'Vim' que aparezca en el documento.
+11. Si queremos buscar la siguiente palabra que coincida con nuestra búsqueda pulsaremos ```n``` y si queremos buscar la anterior palabra que coincida con nuestra búsqueda pulsaremos ```N``` asi podremos buscar la palabra o cadena de texto que estemos buscando.
+12. Si queremos ir al principio de la linea pulsaremos ```0```
+13. Si queremos ir al final de la linea pulsaremos ```$```
+14. Pulsa ahora ```:q!``` para salir del documento sin guardar los cambios
+
  
+## Insertar,copiar y borrar texto
+
+
