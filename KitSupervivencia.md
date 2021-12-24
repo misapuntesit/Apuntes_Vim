@@ -157,4 +157,4 @@ vim ~/vimhelp.txt
 Podemos seleccionar texto de manera visual para ello haremos lo siguiente:
 
 1. Pulsamos la tecla ```v```
-2. Nos movemos para seleccionar las 4 lineas en blanco que acabamos de pegar y pulsamos ```d``` para eliminar esas lineas 
+2. Nos movemos para seleccionar las 4 lineas en blanco que acabamos de pegar y pulsamos ```d``` para eliminar esas lineas, en caso de que queramos copiar las lineas que hemos seleccionado pulsaremos la tecla ```y```
