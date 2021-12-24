@@ -95,6 +95,11 @@ vim ~/vimhelp.txt
 	j -->  nos movemos hacia abajo
 	k -->  nos movemos hacia arriba
 	l -->  nos movemos hacia la izquierda
+
+		j
+	h		l
+		k
+
 	#RECUERDA:para movernos por el texto debemos estar en el modo comando por lo que debes pulsar la tecla ESC 
 ```
 
@@ -158,3 +163,64 @@ Podemos seleccionar texto de manera visual para ello haremos lo siguiente:
 
 1. Pulsamos la tecla ```v```
 2. Nos movemos para seleccionar las 4 lineas en blanco que acabamos de pegar y pulsamos ```d``` para eliminar esas lineas, en caso de que queramos copiar las lineas que hemos seleccionado pulsaremos la tecla ```y```
+3. Si queremos seleccionar solo columnas podemos pulsar ```CTRL + V``` de este modo podemos seleccionar la columna que necesitemos copiar o eliminar siguiendo el procedimiento del punto 2.
+
+## Deshacer y rehacer cambios
+
+1. Para deshacer cambios salimos al modo comando con la tecla ```ESC``` y pulsamos la tecla ```u``` **undo** pulsaremos la tecla tanas veces como cambios queramos revertir.
+2. Cuando llegamos al ultimo cambio posible veremos en la parte de abajo nos indica **Este es el cambio más antiguo**
+3. Una vez que hemos llegado al último cambio que podemos rehacer nos parecera en la parte de abajo a la izquierda la frase **Este es el cambio más nuevo**
+
+## Guardar y/o salir
+
+1. Guardar nuestros cambios en el mismo fichero sobreescribiendolo
+```bash
+:w
+```
+2. Guardar nuestros cambios en un fichero diferente
+```bash
+:w ~/nuevo_fichero.txt
+```
+4. Podemos ver en que buffer nos encontramos pulsando 
+```bash
+CTRL + g
+```
+3. Confirmammos que solo tenemos un buffer de cambios, y que este buffer es el de nuestro fichero, e icncluye cambios:
+```bash
+:ls
+```
+4. Salir de vim sin guardar los cambios, forzamos la salida sin guardar nada:
+```bash
+:q!
+```
+
+## Recursos para obtener ayuda sobre vim
+
+1. Ejecutamos vim sin abrir ningún fichero
+```bash
+vim
+```
+2. En modo comando tecleamos ```:help``` para entra en el modo ayuda
+3. Si presionamos ```q``` para salir nos parecera el mensaje **grabando @q** NO hay que preocuparse puedes volver a pulsar ```q``` y para salir del modo ayuda pulsamos ```:q```
+4. si queremos obtener ayuda sobre como navegar por vim podemos usar ```:h motion``` que nos lleva a la sección de la ayuda donde se explica como movernos con vim.
+5. Si queremos mover una página hacia arriba y nuestro teclado es compacto y no tiene las teclas ```Page Down``` podemos usar la combinación ```CTRL + f``` la f de **forward** o para ```Page Up``` la combinación ```CTRL + b``` la b de **back**
+6. El directorio donde se encuentra la documentación de vim esta en:
+```bash
+cd /usr/share/vim/vim80/doc
+```
+
+**NOTA:** Recuerda que el directorio **vim80** puede ser **vim81** o **vim82** dependera de tu SO. Puedes tabular cuando llegues a vim8 para que te lo autocomplete.
+
+7. Si queremos editar el fichero visual.txt e ir directos a la linea 289 o la linea que tu elijas puedes hacerlo con:
+```bash
+vim +289 visula.txt
+```
+8. Si necesitas buscar una palabra en el fichero visual.txt puedes hacerlo así, **NOTA:** Nos dara un mensaje que estamos en un fichero de solo lectura, pulsa ```enter``` y continua:
+```bash
+vim +/motion visual.txt
+
+#Nos buscara la palabra motion dentro del fichero visual.txt, recuerda que con la tecla ```n``` y ```N``` encontraremos la siguiente o anterior coincidencia.
+```
+
+## Enhorabuena, ya puedes trabajar en tu empresa con Vim moviendote como pez en el agua :wink:
+
