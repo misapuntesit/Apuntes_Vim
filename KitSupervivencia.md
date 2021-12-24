@@ -201,7 +201,7 @@ CTRL + g
 vim
 ```
 2. En modo comando tecleamos ```:help``` para entra en el modo ayuda
-3. Si presionamos ```q``` para salir nos parecera el mensaje **grabando @q** NO hay que preocuparse puedes volver a pulsar ```q``` y para salir del modo ayuda pulsamos ```:q```
+3. Si presionamos ```q``` para salir nos parecera el mensaje **grabando @q** No hay que preocuparse puedes volver a pulsar ```q``` y para salir del modo ayuda pulsamos ```:q```
 4. si queremos obtener ayuda sobre como navegar por vim podemos usar ```:h motion``` que nos lleva a la sección de la ayuda donde se explica como movernos con vim.
 5. Si queremos mover una página hacia arriba y nuestro teclado es compacto y no tiene las teclas ```Page Down``` podemos usar la combinación ```CTRL + f``` la f de **forward** o para ```Page Up``` la combinación ```CTRL + b``` la b de **back**
 6. El directorio donde se encuentra la documentación de vim esta en:
@@ -219,8 +219,8 @@ vim +289 visula.txt
 ```bash
 vim +/motion visual.txt
 
-#Nos buscara la palabra motion dentro del fichero visual.txt, recuerda que con la tecla ```n``` y ```N``` encontraremos la siguiente o anterior coincidencia.
 ```
+El anterior comando nos buscara la palabra motion dentro del fichero visual.txt, recuerda que con la tecla ```n``` y ```N``` encontraremos la siguiente o anterior coincidencia.
 
 ## ¡¡Enhorabuena!!, ya puedes trabajar en tu empresa con Vim moviendote como pez en el agua :wink:
 
