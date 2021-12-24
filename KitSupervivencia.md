@@ -163,7 +163,7 @@ Podemos seleccionar texto de manera visual para ello haremos lo siguiente:
 
 1. Pulsamos la tecla ```v```
 2. Nos movemos para seleccionar las 4 lineas en blanco que acabamos de pegar y pulsamos ```d``` para eliminar esas lineas, en caso de que queramos copiar las lineas que hemos seleccionado pulsaremos la tecla ```y```
-3. Si queremos seleccionar solo columnas podemos pulsar ```CTRL + V``` de este modo podemos seleccionar la columna que necesitemos copiar o eliminar siguiendo el procedimiento del punto 2.
+3. Si queremos seleccionar solo columnas podemos pulsar ```CTRL + V``` entraremos en el modo **BLOQUE VISUAL** de este modo podemos seleccionar la columna que necesitemos copiar o eliminar siguiendo el procedimiento del punto 2.
 
 ## Deshacer y rehacer cambios
 
@@ -201,7 +201,7 @@ CTRL + g
 vim
 ```
 2. En modo comando tecleamos ```:help``` para entra en el modo ayuda
-3. Si presionamos ```q``` para salir nos parecera el mensaje **grabando @q** No hay que preocuparse puedes volver a pulsar ```q``` y para salir del modo ayuda pulsamos ```:q```
+3. Si presionamos ```q``` para salir nos parecera el mensaje **grabando @q** No _#9w*ztWhay que preocuparse puedes volver a pulsar ```q``` y para salir del modo ayuda pulsamos ```:q```
 4. si queremos obtener ayuda sobre como navegar por vim podemos usar ```:h motion``` que nos lleva a la sección de la ayuda donde se explica como movernos con vim.
 5. Si queremos mover una página hacia arriba y nuestro teclado es compacto y no tiene las teclas ```Page Down``` podemos usar la combinación ```CTRL + f``` la f de **forward** o para ```Page Up``` la combinación ```CTRL + b``` la b de **back**
 6. El directorio donde se encuentra la documentación de vim esta en:
