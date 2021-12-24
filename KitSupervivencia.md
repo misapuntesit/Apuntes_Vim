@@ -96,9 +96,9 @@ vim ~/vimhelp.txt
 	k -->  nos movemos hacia arriba
 	l -->  nos movemos hacia la izquierda
 
-		j
-	h		l
 		k
+	h		l
+		j
 
 	#RECUERDA:para movernos por el texto debemos estar en el modo comando por lo que debes pulsar la tecla ESC 
 ```
