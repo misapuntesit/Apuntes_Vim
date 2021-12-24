@@ -222,5 +222,5 @@ vim +/motion visual.txt
 #Nos buscara la palabra motion dentro del fichero visual.txt, recuerda que con la tecla ```n``` y ```N``` encontraremos la siguiente o anterior coincidencia.
 ```
 
-## Enhorabuena, ya puedes trabajar en tu empresa con Vim moviendote como pez en el agua :wink:
+## ¡¡Enhorabuena!!, ya puedes trabajar en tu empresa con Vim moviendote como pez en el agua :wink:
 
