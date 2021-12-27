@@ -56,11 +56,35 @@ p
 CTRL + v
 CURSOR HACIA ABAJO (hasta que selecionemos el número 10)
 ```
-3. Ahora incrementamos esos numeros pulsando con ```CTRL + a``` para que el 4 de tu cursor sea el 5 y la lista termine en 11.
+3. Ahora incrementamos esos numeros pulsando con ```CTRL + a``` para que el 4 de tu cursor sea el 5 y la lista se incremente hasta que termine en 11.
 4. Mueve tu cursosr hasta la linea que pone 1.
 5. Selecciona las lineas numeradas del 1 al 9 pulsando:
 ```vim
 CTRL + v
 8j
 ```
- 
+6. Añade un cero a las lineas numeradas del 1 al 9:
+```vim
+SHIFT + i
+0
+ESC
+```
+7. Vuelve a seleccionar las lineas pulsando ```gv```
+8. Extiende la selección hasta lseleecionar las 11 lineas, el cursor lo debes dejar parpadeando en el último 1 de las 11 lineas.
+9. Con las 11 lineas seleccionadas, añadimos el mismo texto a las 11 lineas, en este caso vamos a comentar las 11 lineas con:
+```vim
+SHIFT + i
+#
+ESC
+```
+10. Si queremos deshacer el cambio que acabamos de realizar pulsaremos la tecla ```u```
+11. Ahora vamos a añadir texto despues del número en las 11 lineas:
+```vim
+gv
+SHIFT + a
+Espacio
+Esto es un texto que aparece en las 11 lineas
+ESC
+```
+12. Volvemos a **deshacer el cambio** pulsando la tecla ```u``` tantas veces hasta que aparezca la frase ```Este es el cambio más antiguo```
+13. Para **rehacer los cambios** pulsaremos la commbinación ```CTRL + r``` la pulsaraemos tantas veces hasta que aparezca ```Estes es el cambio más nuevo```
