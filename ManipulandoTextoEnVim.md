@@ -44,7 +44,7 @@ ATENCIÓN: ¡¡A partir de hoy no uses otro editor distinto de VIM!!
 
 # Seleccionar, copiar, y pegar texto con el MODO VISUAL, deshacer cambios y rehacer cambios
 
-**NOTA:**Para poder seguir esta parte del laboratorio debes haber realizado la parte anterior
+**NOTA:** Para poder seguir esta parte del laboratorio debes haber realizado la parte anterior
 
 1. Posiciona tu cursor en el número ```4``` de la lista que acabamos de crear, y copia y pega esa linea con:
 ```vim
