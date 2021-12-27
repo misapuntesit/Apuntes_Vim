@@ -40,7 +40,7 @@ ATENCIÓN: ¡¡A partir de hoy no uses otro editor distinto de VIM!!
 ```vim
 :put =range(1,10)
 ```
-**NOTA:**De este modo ganamos tiempo para hacer listados ya que podemos poner el rango que necesitemos :wink:
+**NOTA:** De este modo ganamos tiempo para hacer listados ya que podemos poner el rango que necesitemos :wink:
 
 # Seleccionar, copiar, y pegar texto con el MODO VISUAL, deshacer cambios y rehacer cambios
 
