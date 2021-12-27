@@ -1,7 +1,7 @@
 # Navegación por Vim
 
 En este apunte vamos a ver como nos podemos mover agilmente por un documento utilizando Vim y sin tocar nuestro ratón.
-Empezaremos con los movimientos básicos e iremos avanzando con movimeitos que nos daran una mayor velociadad a la hora de editar nuestro documento.
+Empezaremos con los movimientos básicos e iremos avanzando con movimientos que nos daran una mayor velociadad a la hora de editar nuestro documento.
 
 Asi que **¡¡Comencemos!!** :wink:
 
@@ -40,12 +40,12 @@ G
 ```
 50%
 ```
-9. Para ver si la primera linea que vemos en la pantalla es la primera del parrafo pulsamos ```vim H``` y luego con ```vim k``` subimo una linea para asegurarnos.
-10. Reposicionamos nuestro cursor en la **mitad de nuestra pantalla** (no del documento)  pulsando ```vim M``` si queremos ir a la **última linea de nuestra pantalla** pulsamos ```vim L```
-11. Si ahora queremos ir a la linea 17 pulsamos ```vim 17G```
-12. si pulsamos ```vim SHIFT + o``` nos abre una nueva linea encima de donde estaba nuestro cursor y se cambaia al **Modo Insertar** si ahora probamos a teclear las teclas que hemos pulsado antes para movernos por el documento, veremos que estas se estan escribiendo en el documento y no nos movemos por el documento por que ahora estamos en **Modo Insertar** 
+9. Para ver si la primera linea que vemos en la pantalla es la primera del parrafo pulsamos ```H``` y luego con ```k``` subimo una linea para asegurarnos.
+10. Reposicionamos nuestro cursor en la **mitad de nuestra pantalla** (no del documento)  pulsando ```M``` si queremos ir a la **última linea de nuestra pantalla** pulsamos ```L```
+11. Si ahora queremos ir a la linea 17 pulsamos ```17G```
+12. si pulsamos ```SHIFT + o``` nos abre una nueva linea encima de donde estaba nuestro cursor y se cambaia al **Modo Insertar** si ahora probamos a teclear las teclas que hemos pulsado antes para movernos por el documento, veremos que estas se estan escribiendo en el documento y no nos movemos por el documento por que ahora estamos en **Modo Insertar** 
 13. Mientras estamos en el modo insertar nos podemos mover por el documento usando nuestros cursores o las teclas ```avPag, rePag, Inicio, Fin```
-14. Salimos al modo comando ```vim ESC```
+14. Salimos al modo comando ```ESC```
 
 # Mostrar carácteres de control en nuestro fichero, Nvegar por las lineas, por las palabras y por los carácteres.
 
@@ -69,7 +69,7 @@ gg
 ```vim
 Vim is so much better than vi...
 ```
-6. Pulsa la tecla ```SHIFT + 4``` que es la tecla del ```vim $``` para ir al final de la linea
+6. Pulsa la tecla ```SHIFT + 4``` que es la tecla del ```$``` para ir al final de la linea
 7. Mostrar los carácteres "extraños" que no se imprimen por pantalla como pueden ser los espacios, tabulaciones, retornos de carro, etc...
 ```vim
 :set list
@@ -78,7 +78,7 @@ Vim is so much better than vi...
 9. Ubica tu cursor en la linea de arriba del parrafo que empieza con:
 ```
 Coming with a very GUI mindset....  ```
-10. Con el curaor al comienzo del parrafo, pulsa ```vim SHIFT + j``` o lo que es lo mismo la mayúscula ```J``` hasta que desaparezca el simbolo del ```$``` entre  ```Coming with``` y ```(JOse Fonseca)```.
+10. Con el curaor al comienzo del parrafo, pulsa ```SHIFT + j``` o lo que es lo mismo la mayúscula ```J``` hasta que desaparezca el simbolo del ```$``` entre  ```Coming with``` y ```(JOse Fonseca)```.
 11. Ahora pulsa el caracter ```$``` para ir al final de la linea, luego pulsa el caracter ```^``` para ir al principio de la linea
 12. Usa la tecla 10 veces ```w``` para moverte 10 palabras hacia adelante de donde esta tu cursor.
 13. Puedes usar la combinación de 'número + w' para moverte el número de ves que desees por ejemplo si pulsas ```5w``` te moveras 5 palabras hacia adelante
@@ -87,8 +87,21 @@ Coming with a very GUI mindset....  ```
 ```vim
 :h B
 ```
-16. Puedes salir de la ayuda pulsando ```vim :q```
+16. Puedes salir de la ayuda pulsando ```:q```
 17. Posicionate de nuevo en la linea que pone ```Coming with a very GUI....```
-18. Pulsa la tecla ```vim e``` para ir al último caracter de la palabra en la que estas ubicado, le puedes pulsar varias veces para ver como avanza tu cursor coincidiendo siempre con el último carácter de la palabra.
+18. Pulsa la tecla ```e``` para ir al último caracter de la palabra en la que estas ubicado, le puedes pulsar varias veces para ver como avanza tu cursor coincidiendo siempre con el último carácter de la palabra.
 19. Vuleva al principio de la linea pulsando ```0``` o pulsando ```^```
 20. Pulsa la tecla ```E``` para moverte al final de la palabra, luego hazlo varias veces más, esta vez te pararas en la coma despues de la palabra ```windows``` 
+21. Podemos volver al principio del fichero pulsando
+```vim
+[[
+```
+22. Podemos ir al final del fichero pulsando 
+```vim
+]]
+```
+23. Salimos sin guardar cambios
+```vim
+:q
+```
+ 
