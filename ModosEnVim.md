@@ -99,3 +99,33 @@ gv
 ```
 
 # Selecionar columnas en Modo Bloque Visual
+
+Si necesitamos realizar la misma acción sobre una columna el **Modo Bloque Visual** nos ayuda a realizarlo de una forma muy sencilla.
+En este ejemplo vamos a crear un fichero con el listado de un directorio que nos muestra diferentes columnas y vamos a eliminar la columna de permisos.
+
+1. Vamos a crearnos un fichero en el que tengamos columnas, para ello vamos a realizar un ```bash ls``` del directorio root ```/``` y nos lo vamos a guardar en un fichero de texto:
+```bash
+cd
+ls / -al > editando_en_modo_bloque_visual.txt
+```
+2. Abrimos nuestro fichero:
+```bash
+vim editando_en_modo_bloque_visual.txt
+```
+3. Nos ubicamos en el primer caracter de la columna que queremos eliminar y pasamos al **Modo Bloque Visual**
+```
+CTRL + SHIFT + v
+```
+4. Nos movemos con los cursores o con las teclas ```h j k l``` seleccionando la columna que queremos elimnar
+5. Una vez seleccionada la columna pulsamos la tecla ```x``` para eliminarla.
+
+# Seleccionar lineas en Modo Linea Visual
+
+Ahora vamos a eliminar una linea del mismo fichero que teniamos abierto en la anterior sección.
+
+1. Navegamos con los cursores o con las teclas ```h j k l``` hasta la linea que queremos eliminar.
+2. Pulsamos la combinación de teclas ```SHIFT + v```
+3. Pulsamos la tecla ```d``` para elinar la fila
+
+
+Y con esto ya podemos modificar nuestro ficheros muy agilmente, al principio cuesta, pero conforme vamos usando los comandos vamos ganando velocidad y el trabajo se realiza mucho más sencillo sin tocar el ratón :wink:
