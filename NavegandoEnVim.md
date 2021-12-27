@@ -77,7 +77,8 @@ Vim is so much better than vi...
 8. Puedes ver como el carácter ```$``` o ```LF``` (Line Feed) esta al final de cada una de las lineas, indicando el uso de un ```ENTER``` manual
 9. Ubica tu cursor en la linea de arriba del parrafo que empieza con:
 ```
-Coming with a very GUI mindset....  ```
+Coming with a very GUI mindset....  
+```
 10. Con el curaor al comienzo del parrafo, pulsa ```SHIFT + j``` o lo que es lo mismo la mayúscula ```J``` hasta que desaparezca el simbolo del ```$``` entre  ```Coming with``` y ```(JOse Fonseca)```.
 11. Ahora pulsa el caracter ```$``` para ir al final de la linea, luego pulsa el caracter ```^``` para ir al principio de la linea
 12. Usa la tecla 10 veces ```w``` para moverte 10 palabras hacia adelante de donde esta tu cursor.
