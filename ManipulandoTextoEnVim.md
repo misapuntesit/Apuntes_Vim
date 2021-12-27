@@ -31,7 +31,7 @@ Get out of Vim
 ```
 ATENCIÓN: ¡¡A partir de hoy no uses otro editor distinto de VIM!! 
 ```
-6. Cuando la tengas escrita pulsa la tecla ```ESC``` para salir al **MOdo Comando**
+6. Cuando la tengas escrita pulsa la tecla ```ESC``` para salir al **Modo Comando**
 7. Ubica el cursor en una linea vacia entre tu linea actual y otra que pone ```Jump to a subject```, elimina la linea vacia pulsando ```dd```
 8. Ahora vamos a copiar la linea que hemos escrito nosotros, para ello vamos a navegar hasta la linea que hemos escrito y vamos a pulsar ```yy``` para copiar esa linea.
 9. Muevete ahora a la linea que empieza con ```Jump Back``` y pulsa la tecla ```p``` para pegar la linea que hemos copiado justo debajo de la linea que estamos ubicados.
@@ -43,7 +43,7 @@ ATENCIÓN: ¡¡A partir de hoy no uses otro editor distinto de VIM!!
 ```
 **NOTA:** De este modo ganamos tiempo para hacer listados ya que podemos poner el rango que necesitemos :wink:
 
-# Seleccionar, copiar, y pegar texto con el MODO VISUAL, deshacer cambios y rehacer cambios
+## Seleccionar, copiar, y pegar texto con el MODO VISUAL, deshacer cambios y rehacer cambios
 
 **NOTA:** Para poder seguir esta parte del laboratorio debes haber realizado la parte anterior
 
