@@ -1,6 +1,6 @@
 # MODOS EN VIM
 
-En este laboratorio vamos a entender como funcionan los modos de Vim. Una de las cosas más importantes que debemos entender cuando empezamos a trabajar con el editor Vim, es en que modo nos encontramos y como salir de ese modo y volver al MOdo Comando.
+En este laboratorio vamos a entender como funcionan los modos de Vim. Una de las cosas más importantes que debemos entender cuando empezamos a trabajar con el editor Vim, es en que modo nos encontramos y como salir de ese modo y volver al Modo Comando.
 
 Despues de realizar este laboratorio, entederemos todos los modos de Vim  y sabremos como cambiar entre modos para realizar nuestras tareas muy agilmente.
 
@@ -47,11 +47,55 @@ SHIFT + u
 :q
 ```
 
-**NOTA:** Si alguna ves que vim te muestra un mensjae ne la parte inferiro que ponga ```grabando @q```, puedes salir de ese estado pulsando la tecla ```q``` para parar la grabación. HAablaremos de la grabación en otro apunte.
+**NOTA:** Si alguna ves que vim te muestra un mensaje en la parte inferior que ponga ```grabando @q```, puedes salir de ese estado pulsando la tecla ```q``` para parar la grabación. Hablaremos de la grabación en otro apuntey cuando hablemos de los buffers.
 
 
 ## Modo Comando
 
 Cuando entramos en vim por defecto nos encontramos en el modo comando, esto quiere decir que si presionamos teclas, **NO ESTAREMOS ESCRIBIENDO** si no que estaremos lanzando comandos que realizaran acciones en nuestro editor.
 
-**Por Ejemplo:** si pullsamos la tecla ```w``` moveremos el cursor a la siguiente palabra
+**Por Ejemplo:** si pulsamos la tecla ```w``` moveremos el cursor a la siguiente palabra
+
+## Seleccionar y manipular texto en el Modo Visual, volver al Modo Comando guardar y salir
+ 
+1. Abrimos nuestro editor Vim
+```bash
+vim
+```
+2. Creamos un fichero con el que poder trabajar para ello vamos a ir a una sección de la ayuda y nos la vamos a guardar en un fichero nuestro donde podremos practicar:
+```bash
+:help quotes
+:w ~/mifichero.txt
+```
+3. Cuando el fichero se haya escrito en disco, el estado nos mostrara la palabra ```[convertido]```, asi que salimos de la ayuda pulsando:
+```bash
+:q
+```
+4. Mientras continuamos en vim podemos abrir nuestro fichero en otro buffer de memoria, (como si fuese otra pestaña de un explorador) para ello pulsamos:
+```bash
+:e ~/mifichero.txt
+```
+5. Navegamos al parrafo que comienza por:
+```
+Coming with a very GUI mindset...
+```
+6. Ubicamos nuestro cursor en el primer caracter de la palabra ```Coming``` y pulsamos la tecla ```v``` para arrancar el **Modo Visual**. Abajo nos mostrar el texto ```-- VISUAL --``` indicandonos el modo en el que nos encontramos.
+7. Ahora seleccionamos el texto ```Coming``` pulsando la tecla ```e``` para ir al final de esa palabra.
+8. Presinamos ```w``` un par de veces para seleccionar un par de palabras más
+9. Ponemos las palabras seleccionadas en mayusculas pressionando la tecla ```U``` mientras estan las palabras seleccionadas en el **Modo Visual**, en es e momento vemos como las palabras pasan a estar en mayusculas y el modo ```-- VISUAL --``` desaparece por que hemos vuelto al **Modo Comando**.
+10. Entramos de nuevo al modo visual pulsando otra vez la combinación:
+```
+SHIFT + v
+```
+11. Movemos el cursor hacia abajo para seleccionar el parrafo y pulsamos la tecla ```U``` para cambiar el parrafo a Mayúsculas.
+12. POdemos reseleccionar el parrafo rápidamente pulsando:
+```
+gv
+```
+14. Ahora vamos a aelimnar el parrafo seleccionado pulsando ```d``` 
+15. Guardamos el fichero y salimos
+```
+:wq
+```
+
+# Selecionar columnas en Modo Bloque Visual
