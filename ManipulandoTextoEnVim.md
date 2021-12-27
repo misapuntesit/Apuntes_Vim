@@ -89,3 +89,5 @@ ESC
 ```
 12. Volvemos a **deshacer el cambio** pulsando la tecla ```u``` tantas veces hasta que aparezca la frase ```Este es el cambio más antiguo```
 13. Para **rehacer los cambios** pulsaremos la commbinación ```CTRL + r``` la pulsaraemos tantas veces hasta que aparezca ```Estes es el cambio más nuevo```
+
+Con estos apuntes ya podemos editar texto, copiar y pegar con nuestro editor Favorito :wink:
