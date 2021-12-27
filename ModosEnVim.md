@@ -98,7 +98,7 @@ gv
 :wq
 ```
 
-# Selecionar columnas en Modo Bloque Visual
+## Selecionar columnas en Modo Bloque Visual
 
 Si necesitamos realizar la misma acción sobre una columna el **Modo Bloque Visual** nos ayuda a realizarlo de una forma muy sencilla.
 En este ejemplo vamos a crear un fichero con el listado de un directorio que nos muestra diferentes columnas y vamos a eliminar la columna de permisos.
@@ -119,7 +119,7 @@ CTRL + SHIFT + v
 4. Nos movemos con los cursores o con las teclas ```h j k l``` seleccionando la columna que queremos elimnar
 5. Una vez seleccionada la columna pulsamos la tecla ```x``` para eliminarla.
 
-# Seleccionar lineas en Modo Linea Visual
+## Seleccionar lineas en Modo Linea Visual
 
 Ahora vamos a eliminar una linea del mismo fichero que teniamos abierto en la anterior sección.
 
