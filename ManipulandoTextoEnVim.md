@@ -2,9 +2,9 @@
 
 Editar texto de una manera ágil, eficiente y precisa es una de las mejores habilidades que puede tener un administrador de sistemas o un programador, ya que te facilita y te hace ganar mucho tiempo a la hora de desarrollar tus aplicaciones y editar o crear tus ficheros de configuración.
 
-En este escanrio, veremos como podemos editar y manipular texto con el editor Vim que nos dara esa eficiencia y agilidad a la hora de crear y editar nuestros ficheros.
+En este escenario, veremos como podemos editar y manipular texto con el editor Vim que nos dara esa eficiencia y agilidad a la hora de crear y editar nuestros ficheros.
 
-Asi que **¡¡Comencemos!!** :wink:
+Asi que  vamonos al terminal **¡¡Comencemos!!** :wink:
 
 
 ## Insertary añadir texto y lineas, copiar y pegar texto y lineas, eliminar texto y lineas.
@@ -89,5 +89,6 @@ ESC
 ```
 12. Volvemos a **deshacer el cambio** pulsando la tecla ```u``` tantas veces hasta que aparezca la frase ```Este es el cambio más antiguo```
 13. Para **rehacer los cambios** pulsaremos la commbinación ```CTRL + r``` la pulsaraemos tantas veces hasta que aparezca ```Estes es el cambio más nuevo```
+14. Para sustituir una palabra, nos ponemos delante de la palabra y pulsamos ```cw``` que significa change word y se cambia a Modo Insertar permitiendonos escribir.
+15. Si queremos sustituir la linea completa, pulsaremos ```cc``` nos sustituira la linea pasandose al Modo Insertar, permitiendonos escribir y sustituir la linea.
 
-Con estos apuntes ya podemos editar texto, copiar y pegar con nuestro editor Favorito :wink:
